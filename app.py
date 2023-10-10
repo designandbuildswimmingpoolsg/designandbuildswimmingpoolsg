@@ -18,7 +18,7 @@ st.markdown(
         background-image: url('https://i.imgur.com/sBVacgd.png');
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: cover;
+        background-size: 300px;
         color: #fff;
         text-align: center;
         padding: 270px 0;
