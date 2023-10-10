@@ -56,16 +56,6 @@ st.markdown(
         clear: both;
         display: table;
     }
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11367889284">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11367889284');
-</script>
 </style>
 """,
     unsafe_allow_html=True,
@@ -283,7 +273,7 @@ def main():
         if navigation == "Contact Us":
             # Contact Form
             contact_form = """
-            <form action="https://formsubmit.co/YOUREMAIL@EMAIL.COM" method="POST">
+            <form action="https://formsubmit.co/designandbuildswimmingpoolsg@gmail.com" method="POST">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="text" name="name" placeholder="Your name" required>
                 <input type="email" name="email" placeholder="Your email" required>
