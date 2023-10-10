@@ -17,7 +17,7 @@ st.markdown(
     .landing-page {
         background-image: url('https://i.imgur.com/sBVacgd.png');
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: center center;
         background-size: cover;
         color: #fff;
         text-align: center;
