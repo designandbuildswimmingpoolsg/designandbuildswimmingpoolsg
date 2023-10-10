@@ -56,6 +56,16 @@ st.markdown(
         clear: both;
         display: table;
     }
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11367889284">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11367889284');
+</script>
 </style>
 """,
     unsafe_allow_html=True,
